@@ -7,6 +7,9 @@
   font-size: 18px;
   padding: 0 20px 0 20px;
 }
+.nav-text-active {
+  border-bottom: black 1px solid;
+}
 
 .home-icon {
   margin-left: 30px;
@@ -38,4 +41,10 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+}
+
+/* about section */
+
+.about-section {
+  margin: 20px;
 }
