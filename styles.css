@@ -1,9 +1,16 @@
 .navbar {
-  margin-bottom: 20px;
+  background-color: #fff;
 }
+.nav-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 20px 0 20px;
+}
+
 .home-icon {
-  margin-left: 20px;
-  color: rgb(131, 123, 123);
+  margin-left: 30px;
+  color: rgb(150, 139, 124);
 }
 
 h1 {
@@ -12,5 +19,23 @@ h1 {
   font-style: normal;
   font-size: 25px;
   text-align: end;
-  margin-right: 100px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+  .home-icon {
+    display: none;
+  }
+}
+
+.home-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
