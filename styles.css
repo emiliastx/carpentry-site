@@ -1,0 +1,16 @@
+.navbar {
+  margin-bottom: 20px;
+}
+.home-icon {
+  margin-left: 20px;
+  color: rgb(131, 123, 123);
+}
+
+h1 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: end;
+  margin-right: 100px;
+}
