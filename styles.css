@@ -43,8 +43,18 @@ h1 {
   max-width: 100%;
 }
 
-/* about section */
+.card-title {
+  text-align: center;
+}
+
+/* about page */
 
 .about-section {
   margin: 20px;
+}
+
+/* gallery page */
+
+.gallery {
+  margin-top: 10px;
 }
