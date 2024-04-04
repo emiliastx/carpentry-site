@@ -36,12 +36,40 @@ h1 {
   }
 }
 
+/* homepage banner */
+
 .home-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
 }
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-text {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.image-text h2 {
+  font-family: "Questrial", sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.image-text p {
+  font-size: 18px;
+}
+
+/* cards */
 
 .card-title {
   text-align: center;
@@ -50,7 +78,9 @@ h1 {
 /* about page */
 
 .about-section {
-  margin: 20px;
+  margin: 60px;
+  font-family: "Lato", sans-serif;
+  color: rgb(73, 72, 66);
 }
 
 /* gallery page */
