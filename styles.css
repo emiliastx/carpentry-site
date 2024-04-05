@@ -25,6 +25,10 @@ h1 {
   margin-right: 200px;
   margin-top: 10px;
 }
+h1 a {
+  color: rgb(44, 39, 39);
+  text-decoration: none;
+}
 
 /* homepage banner */
 
@@ -63,14 +67,28 @@ h1 {
 
 .card-title {
   text-align: center;
+  font-family: "Questrial", sans-serif;
+}
+.card-text {
+  font-family: "Lato", sans-serif;
 }
 
 /* about page */
 
 .about-section {
-  margin: 60px;
-  font-family: "Lato", sans-serif;
   color: rgb(73, 72, 66);
+  margin-top: 60px;
+}
+.about-title {
+  font-family: "Questrial", sans-serif;
+}
+.about-text {
+  font-family: "Lato", sans-serif;
+  line-height: 30px;
+}
+.about-img {
+  max-width: 100%;
+  border-radius: 2px;
 }
 
 /* gallery page */
@@ -83,7 +101,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
   h1 {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 100px;
   }
   .home-icon {
@@ -96,5 +114,19 @@ h1 {
   .image-text p {
     font-size: 12px;
     white-space: nowrap;
+  }
+  .navbar button {
+    margin-right: 20px;
+  }
+  .nav-text-active {
+    border-bottom: 0;
+  }
+
+  /* about */
+
+  .about-section {
+    padding: 20px;
+    align-items: center;
+    margin-top: 30px;
   }
 }
