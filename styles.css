@@ -76,20 +76,24 @@ h1 a {
 /* footer */
 
 footer {
-  border-top: rgb(209, 201, 190) 1px solid;
-}
-.footer-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer-icon {
-  margin: 10px;
-  color: rgb(150, 139, 124);
-}
-.copyright {
+  border-top: 1px solid rgb(209, 201, 190);
   font-family: "Lato", sans-serif;
   color: rgb(150, 139, 124);
+  text-align: center;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+/* Footer Icons */
+.footer-icon {
+  margin: 15px;
+  color: rgb(150, 139, 124);
+  font-size: 25px;
 }
 
 /* about page */
@@ -155,6 +159,17 @@ footer {
   }
   .nav-text-active {
     border-bottom: 0;
+  }
+
+  /* footer */
+  footer {
+    border-top: none;
+  }
+  .footer-text {
+    font-size: smaller;
+  }
+  .footer-icon {
+    font-size: 30px;
   }
 
   /* about */
