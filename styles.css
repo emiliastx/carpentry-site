@@ -139,6 +139,10 @@ footer {
   color: rgb(73, 72, 66);
   margin-top: 40px;
 }
+.contact-section a {
+  text-decoration: none;
+  color: rgb(73, 72, 66);
+}
 .contact-title {
   font-family: "Questrial", sans-serif;
   font-size: 40px;
