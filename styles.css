@@ -108,10 +108,12 @@ footer {
 }
 .about-title {
   font-family: "Questrial", sans-serif;
+  font-size: 38px;
 }
 .about-text {
   font-family: "Lato", sans-serif;
   line-height: 30px;
+  font-size: 20px;
 }
 .about-img {
   max-width: 100%;
@@ -121,6 +123,7 @@ footer {
   margin-top: 60px;
   margin-bottom: 30px;
   font-family: "Questrial", sans-serif;
+  font-size: 32px;
 }
 .services-col {
   padding-left: 40px;
@@ -129,6 +132,7 @@ footer {
 .services-list li {
   padding-left: 30px;
   text-align: left;
+  font-size: 20px;
 }
 
 /* gallery page */
@@ -169,11 +173,11 @@ footer {
     display: none;
   }
   .image-text h2 {
-    font-size: 18px;
+    font-size: 22px;
     white-space: nowrap;
   }
   .image-text p {
-    font-size: 12px;
+    font-size: 17px;
     white-space: nowrap;
   }
   .navbar button {
@@ -200,5 +204,46 @@ footer {
     padding: 20px;
     align-items: center;
     margin-top: 30px;
+  }
+}
+
+/* responsiveness for large res screens */
+
+@media only screen and (min-device-width: 1920px) and (min-device-height: 1080px) {
+  .nav-text {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .image-text h2 {
+    font-size: 42px;
+  }
+
+  .image-text p {
+    font-size: 28px;
+  }
+
+  /* cards */
+  .card-title {
+    font-size: 38px;
+  }
+  .card-text {
+    font-size: 24px;
+  }
+
+  /* about */
+  .about-title {
+    font-size: 42px;
+  }
+  .about-text {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .services-title {
+    font-size: 36px;
+  }
+  .services-list li {
+    font-size: 24px;
   }
 }
